@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Kosmonik.Telegram.Bot.Commands</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>KosmonikOS</Authors>
+    <Product>Kosmonik.Telegram.Bot.Commands</Product>
+    <Description>This is package to handle telegram messages and execute special commands</Description>
+    <Copyright>No copyright</Copyright>
+    <PackageIcon>Telegram M.jpg</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\Telegram.Bot.Commands.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\Telegram.Bot.Commands.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\Telegram.Bot.Commands.deps.json" />
+    <Content Include="obj\Debug\net6.0\Telegram.Bot.Commands.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Telegram.Bot.Commands.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\Telegram.Bot.Commands.dll" />
+    <None Include="bin\Debug\net6.0\Telegram.Bot.Commands.pdb" />
+    <None Include="C:\Users\НИКИТА\Desktop\Telegram M.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="obj\Debug\net6.0\refint\Telegram.Bot.Commands.dll" />
+    <None Include="obj\Debug\net6.0\ref\Telegram.Bot.Commands.dll" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.assets.cache" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.dll" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\Telegram.Bot.Commands.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Telegram.Bot.Commands.csproj.nuget.g.props" />
+    <None Include="obj\Telegram.Bot.Commands.csproj.nuget.g.targets" />
+    <None Include="Telegram.Bot.Commands.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Telegram.Bot" Version="17.0.0" />
+  </ItemGroup>
+
+</Project>
